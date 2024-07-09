@@ -1,50 +1,50 @@
-# CarePulse - Patient Management System
+# CarePulse - Sistema de Gerenciamento de Pacientes
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é um projeto [Next.js](https://nextjs.org/) iniciado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## About the Project
+## Sobre o Projeto
 
-CarePulse is a Patient Management System built with Next.js, Twilio, TypeScript, and TailwindCSS, based on the tutorial from the Javascript Mastery YouTube channel. You can watch the full tutorial [here](https://www.youtube.com/watch?v=lEflo_sc82g).
+CarePulse é um Sistema de Gerenciamento de Pacientes construído com Next.js, Twilio, TypeScript e TailwindCSS, baseado no tutorial do canal Javascript Mastery no YouTube. Você pode assistir ao tutorial completo [aqui](https://www.youtube.com/watch?v=lEflo_sc82g).
 
-## Getting Started
+## Começando
 
-First, install the dependencies:
+Primeiro, instale as dependências:
 
 ```bash
 npm install
-# or
+# ou
 yarn install
-# or
+# ou
 pnpm install
 ```
 
-Then, run the development server:
+Depois, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `app/page.tsx`. A página é atualizada automaticamente conforme você edita o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto usa [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
 
 ## Scripts
 
-- **dev**: Runs the development server.
-- **build**: Builds the application for production.
-- **start**: Starts the production server.
-- **lint**: Runs ESLint to analyze the code for potential errors.
+- **dev**: Executa o servidor de desenvolvimento.
+- **build**: Constrói a aplicação para produção.
+- **start**: Inicia o servidor de produção.
+- **lint**: Executa o ESLint para analisar o código em busca de possíveis erros.
 
 <details>
-  <summary><strong>Dependencies</strong></summary>
+  <summary><strong>Dependências</strong></summary>
 
 - `@hookform/resolvers`: ^3.9.0
 - `@radix-ui/react-label`: ^2.1.0
@@ -66,7 +66,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 </details>
 
 <details>
-  <summary><strong>DevDependencies</strong></summary>
+  <summary><strong>DevDependências</strong></summary>
 
 - `@types/node`: ^20
 - `@types/react`: ^18
@@ -79,25 +79,21 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 </details>
 
-## Learn More
+## Saiba Mais
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre Next.js, consulte os seguintes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Você pode conferir [o repositório do Next.js no GitHub](https://github.com/vercel/next.js/) - seus comentários e contribuições são bem-vindos!
 
-## Deploy on Vercel
+## Implantação no Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Confira nossa [documentação de implantação do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
 
-## Credits
+## Créditos
 
-This project was built following the tutorial by Javascript Mastery. Watch the full tutorial [here](https://www.youtube.com/watch?v=lEflo_sc82g).
-
----
-
-Feel free to edit any part of it according to your preferences.
+Este projeto foi construído seguindo o tutorial do Javascript Mastery. Assista ao tutorial completo [aqui](https://www.youtube.com/watch?v=lEflo_sc82g).
