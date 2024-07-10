@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  // TODO: OTP verification | PasskeyModal
+  // TODO: OTP verification | Passkey Modal
   return (
     <div className="flex h-screen max-h-screen">
       <section className="remove-scrollbar container my-auto">
