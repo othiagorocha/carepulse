@@ -8,7 +8,7 @@ const RegisterPage = async ({ params: { userId } }: SearchParamProps) => {
   const user = await getUser(userId);
   return (
     <div className="flex min-h-screen">
-      <section className="remove-scrollbar container">
+      <section className="remove-scrollbar container flex-grow">
         <div className="sub-container max-w-[496px]">
           <Image
             src={"/assets/icons/logo-full.svg"}
@@ -30,13 +30,15 @@ const RegisterPage = async ({ params: { userId } }: SearchParamProps) => {
         </div>
       </section>
 
-      <Image
-        src={"/assets/images/register-img.png"}
-        height={560}
-        width={1000}
-        alt="patient"
-        className=" md:max-w-[350px] h-screen lg:max-w-[550px]"
-      />
+      <div className="flex-grow min-h-screen relative">
+        <Image
+          src={"/assets/images/register-img.png"}
+          layout="fill"
+          objectFit="cover"
+          alt="patient"
+          className="w-full h-full"
+        />
+      </div>
     </div>
   );
 };
