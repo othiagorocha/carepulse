@@ -30,7 +30,7 @@ const RegisterPage = async ({ params: { userId } }: SearchParamProps) => {
         </div>
       </section>
 
-      <div className="flex-grow min-h-screen relative">
+      <div className="flex-grow max-md:hidden min-h-screen relative md:max-w-[350px] lg:max-w-[550px]">
         <Image
           src={"/assets/images/register-img.png"}
           layout="fill"
